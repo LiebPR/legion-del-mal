@@ -7,4 +7,6 @@ El plan consiste en activar un dispositivo criogénico que cubra Metropolis con 
 1. Activar el dispositivo criogénico.
 2. Mantener Metropolis congelada durante la ejecución del plan.
 3. Descongelar la ciudad de forma controlada.
+4. Verificar que la ciudad haya recuperado su funcionamiento normal.
+
 
