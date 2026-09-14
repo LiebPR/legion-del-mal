@@ -7,7 +7,7 @@
 
 ---
 
-## Objetivo
+## Objetivo - Cambio 1
 
 Crear un clon perfecto de Superman, controlado por la Legión, e infiltrarlo en la Liga de la Justicia para destruirla desde dentro.
 
