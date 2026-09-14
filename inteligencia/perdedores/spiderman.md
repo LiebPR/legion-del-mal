@@ -23,3 +23,13 @@ Spiderman es un superhéroe creado por Stan Lee y Steve Ditko, conocido por ser 
 - **Responsabilidad emocional:** Su preocupación por proteger a sus seres queridos puede ser aprovechada por sus enemigos.
 - **Recursos limitados:** Peter Parker suele tener dificultades económicas y depende de sus propios conocimientos para fabricar y mantener sus dispositivos.
 - **Sentido del deber:** Su compromiso de ayudar a los demás puede llevarlo a exponerse a peligros innecesarios.
+
+## Poderes
+
+- **Agilidad sobrehumana:** Posee rapidez, reflejos y coordinación extraordinarios, lo que le permite moverse con gran precisión y velocidad.
+- **Fuerza mejorada:** Su fuerza es considerablemente superior a la de un humano normal, permitiéndole levantar y sostener grandes pesos.
+- **Trepar paredes:** Puede adherirse a casi cualquier superficie, incluidas paredes y techos, gracias a sus habilidades arácnidas.
+- **Sentido arácnido:** Tiene una percepción sensorial aumentada que le permite detectar peligros, sonidos y movimientos con gran precisión.
+- **Tela de araña:** Produce telarañas sintéticas que usa para moverse, atrapar enemigos y crear dispositivos de apoyo.
+- **Reflejos y equilibrio excepcionales:** Su equilibrio y reacción ante situaciones de riesgo son mucho mayores que los de una persona promedio.
+- **Resistencia aumentada:** Puede soportar golpes, caídas y otros impactos con mayor capacidad que un humano común.
