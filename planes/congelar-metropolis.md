@@ -1,4 +1,4 @@
-# _Congelar Metropolis_
+# Congelar Metropolis
 
 El plan consiste en activar un dispositivo criogénico que cubra Metropolis con una ola de frío controlada, inmovilizando temporalmente sus infraestructuras y defensas. Mientras la ciudad permanezca congelada, el equipo podrá ejecutar sus objetivos con precisión y descongelarla después sin causar daños permanentes.
 
