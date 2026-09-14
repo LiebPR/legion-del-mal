@@ -33,3 +33,16 @@ Spiderman es un superhéroe creado por Stan Lee y Steve Ditko, conocido por ser 
 - **Tela de araña:** Produce telarañas sintéticas que usa para moverse, atrapar enemigos y crear dispositivos de apoyo.
 - **Reflejos y equilibrio excepcionales:** Su equilibrio y reacción ante situaciones de riesgo son mucho mayores que los de una persona promedio.
 - **Resistencia aumentada:** Puede soportar golpes, caídas y otros impactos con mayor capacidad que un humano común.
+
+## Películas
+
+En orden de estreno:
+
+1. **Spider-Man (2002)**
+2. **Spider-Man 2 (2004)**
+3. **Spider-Man 3 (2007)**
+4. **The Amazing Spider-Man (2012)**
+5. **The Amazing Spider-Man 2 (2014)**
+6. **Spider-Man: Homecoming (2017)**
+7. **Spider-Man: Far From Home (2019)**
+8. **Spider-Man: No Way Home (2021)**
