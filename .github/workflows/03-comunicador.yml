@@ -35,11 +35,22 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Instalar el transmisor de la legión
+        run: sudo apt-get install -y cowsay
+
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Imprimir Inputs
         run: |
-          echo "Inputs:"
+          echo "================================="
+          echo "    Tranmisión Interceptada"
+          echo "================================="
           echo ""
-          echo "Villano: ${{inputs.villano}}"
-          echo "Nivel: ${{inputs.prioridad}}"
-          echo "Mensaje: ${{inputs.mensaje}}"
+          echo "De: ${{inputs.villano}}"
+          echo ""
+          echo "Fecha: $(data -u +"%d/%m/%Y - %H:%M UTC")"
+          echo "---- Mensaje ----"
+          cowsay -f eyes "${{inputs.mensaje}}"
+          echo ""
+          echo "---- ${{inputs.villano}}"
+          echo "..."
+          
