@@ -18,7 +18,16 @@ on:
         description: "Mensaje para el consejo"
         required: true
         default: "La misión fue un éxito"
-
+      
+      cow-character:
+        description: "Tipo de Cow"
+        required: true
+        type: choice
+        options: 
+          - armadillo
+          - aperture
+          - atom
+          - banana
 
       prioridad:
         description: "Nivel de Prioridad"
@@ -49,7 +58,7 @@ jobs:
           echo ""
           echo "Fecha: $(data -u +"%d/%m/%Y - %H:%M UTC")"
           echo "---- Mensaje ----"
-          cowsay -f eyes "${{inputs.mensaje}}"
+          cowsay -f "${{inputs.cow-character}}"
           echo ""
           echo "---- ${{inputs.villano}}"
           echo "..."
