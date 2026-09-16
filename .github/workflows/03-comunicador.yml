@@ -25,9 +25,11 @@ on:
         type: choice
         options: 
           - armadillo
-          - aperture
           - atom
           - banana
+          - daemon
+          - ghostbusters
+          - sheep
 
       prioridad:
         description: "Nivel de Prioridad"
@@ -56,7 +58,7 @@ jobs:
           echo ""
           echo "De: ${{inputs.villano}}"
           echo ""
-          echo "Fecha: $(data -u +"%d/%m/%Y - %H:%M UTC")"
+          echo "Fecha: $(date -u +"%d/%m/%Y - %H:%M UTC")"
           echo "---- Mensaje ----"
           cowsay -f "${{inputs.cow-character}}"
           echo ""
