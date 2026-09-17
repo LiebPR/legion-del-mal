@@ -1,0 +1,66 @@
+name: Crear release desde tag
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+jobs:
+  crear-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar historial completo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generar notas de la version
+        shell: bash
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          previous_tag=$(git tag --sort=-creatordate | awk -v current="$TAG" '$0 != current { print; exit }')
+          if [[ -n "$previous_tag" ]]; then
+            revision_range="$previous_tag..$TAG"
+            diff_range="$previous_tag $TAG"
+            version_label="Cambios desde $previous_tag"
+          else
+            revision_range="$TAG"
+            diff_range="${TAG}^ $TAG"
+            version_label="Cambios incluidos en esta primera version"
+          fi
+
+          {
+            printf '# Release %s\n\n' "$TAG"
+            printf '## %s\n\n' "$version_label"
+            git log "$revision_range" --pretty=format:'- %s (%h)' --no-merges
+            printf '\n\n### Resumen de archivos\n\n'
+            git diff --stat $diff_range || true
+            printf '\n## Logs de la version\n\n'
+            printf 'Archivo `logs/server.log`:\n\n'
+            if [[ -s logs/server.log ]]; then
+              printf '```text\n'
+              cat logs/server.log
+              printf '\n```\n'
+            else
+              printf '_No hay entradas registradas en `logs/server.log`._\n'
+            fi
+          } > release-notes.md
+
+      - name: Crear release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" \
+              --verify-tag \
+              --title "Release $TAG" \
+              --notes-file release-notes.md
+          fi
