@@ -1,9 +1,9 @@
-name: Crear release desde tag
+name: Tag a Release - Publicar Versión
 
 on:
   push:
     tags:
-      - "*"
+      - "v*"
 
 permissions:
   contents: write
