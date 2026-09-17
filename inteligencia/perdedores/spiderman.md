@@ -45,4 +45,9 @@ En orden de estreno:
 5. **The Amazing Spider-Man 2 (2014)**
 6. **Spider-Man: Homecoming (2017)**
 7. **Spider-Man: Far From Home (2019)**
-8. **Spider-Man: No Way Home (2021)**
+8. **Spider-Man: No Way Home (2021)** 
+
+## Estrategia recomendada
+Para derrotarlo, conviene evitar el combate directo y aprovechar sus debilidades: aislarlo de sus seres queridos, limitar sus rutas de escape, utilizar tecnología para interferir con sus sentidos arácnidos y obligarlo a enfrentarse a varios obstáculos simultáneos. La estrategia debe centrarse en inmovilizarlo temporalmente y neutralizar sus dispositivos, evitando daños a civiles.
+
+
