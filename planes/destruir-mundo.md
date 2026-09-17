@@ -10,6 +10,6 @@ Estos son los planes para destruir el mundo:
 5. Controlar los recursos esenciales como el agua y los alimentos, creando escasez y caos en la población mundial.
 6. Difundir propaganda y desinformación para sembrar el miedo y la desconfianza entre las naciones, debilitando la cooperación internacional.
 
-## Plan de Escape
+## Plan de escape
 Construir un refugio secreto y preparar rutas de evacuación discretas.
 Mantener suministros esenciales y documentos de identidad falsos para huir sin ser detectados.

@@ -94,7 +94,7 @@ if ls miembros/*.yml 1>/dev/null 2>&1; then
     fi
   done
 else
-  echo "  ⚠️  No se encontraron fichas en villanos/"
+  echo "  ⚠️  No se encontraron fichas en miembros/"
   AVISOS=$((AVISOS + 1))
 fi
 
