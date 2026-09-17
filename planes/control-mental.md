@@ -8,3 +8,7 @@ El plan **Control Mental** es la estrategia de un grupo de villanos que busca ma
 2. Instalar los dispositivos de transmisión en puntos estratégicos de la ciudad.
 3. Difundir los mensajes para influir gradualmente en las decisiones de la población.
 4. Coordinar las acciones de las personas controladas para apoderarse de la ciudad.
+
+## Plan de Escape
+
+Retirarse por túneles subterráneos hacia un refugio seguro antes de que los héroes desactiven los dispositivos.
